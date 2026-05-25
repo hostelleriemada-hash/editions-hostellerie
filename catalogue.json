@@ -1,0 +1,48 @@
+{
+  "ouvrages": [
+    {
+      "titre": "Les Aventures d'Éloi — La Gourmandise",
+      "auteur": "Jean Claude Gonard",
+      "soustitre": "Album jeunesse · PDF + Imprimé",
+      "prix": "9,90 €",
+      "badge": "Nouveau",
+      "description": "Éloi, petit garçon gourmand et curieux, découvre le monde à travers la cuisine et les saveurs. Illustré en aquarelle, pour les enfants dès 3 ans.",
+      "image": "images/eloi-cover.jpg",
+      "categorie": "Album jeunesse",
+      "disponible": true
+    },
+    {
+      "titre": "Les Rothschild — Origines",
+      "auteur": "Jean Claude Gonard",
+      "soustitre": "Essai historique · PDF + Imprimé",
+      "prix": "18,00 €",
+      "badge": "",
+      "description": "Origines, ascension et influence d'une dynastie financière européenne. De Francfort aux capitales du monde, une saga sans équivalent.",
+      "image": "images/rothschild-cover.jpg",
+      "categorie": "Essai historique",
+      "disponible": true
+    },
+    {
+      "titre": "Le Petit Lémurien Perdu",
+      "auteur": "Jean Claude Gonard",
+      "soustitre": "Album jeunesse · Imprimé",
+      "prix": "12,00 €",
+      "badge": "Bientôt",
+      "description": "Un petit lémurien égaré dans la forêt malgache, des rencontres inattendues et une leçon d'amitié. Un album ancré dans la nature unique de Madagascar.",
+      "image": "images/lemurien-cover.png",
+      "categorie": "Album jeunesse",
+      "disponible": false
+    },
+    {
+      "titre": "Catalogue Général 2024–2026",
+      "auteur": "Les Éditions de l'Hostellerie",
+      "soustitre": "Toutes publications · PDF",
+      "prix": "Gratuit",
+      "badge": "",
+      "description": "L'ensemble des publications des Éditions de l'Hostellerie de 2024 à 2026.",
+      "image": "images/logo.png",
+      "categorie": "Catalogue",
+      "disponible": true
+    }
+  ]
+}
