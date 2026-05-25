@@ -1,0 +1,33 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+locale: 'fr'
+
+collections:
+  - name: "catalogue"
+    label: "📚 Catalogue des ouvrages"
+    files:
+      - label: "Ouvrages"
+        name: "ouvrages"
+        file: "catalogue.json"
+        fields:
+          - label: "Liste des ouvrages"
+            name: "ouvrages"
+            widget: "list"
+            label_singular: "Ouvrage"
+            summary: "{{fields.titre}} — {{fields.prix}}"
+            fields:
+              - {label: "Titre", name: "titre", widget: "string", hint: "Titre complet de l'ouvrage"}
+              - {label: "Auteur", name: "auteur", widget: "string", default: "Jean Claude Gonard"}
+              - {label: "Sous-titre (format · type)", name: "soustitre", widget: "string", hint: "Ex: Album jeunesse · PDF + Imprimé"}
+              - {label: "Prix", name: "prix", widget: "string", hint: "Ex: 12,00 € ou Gratuit"}
+              - {label: "Badge (Nouveau, Bientôt…)", name: "badge", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Image de couverture", name: "image", widget: "image"}
+              - {label: "Catégorie", name: "categorie", widget: "select",
+                 options: ["Album jeunesse", "Essai historique", "Roman", "Magazine", "Catalogue", "Autre"]}
+              - {label: "Disponible à la vente", name: "disponible", widget: "boolean", default: true}
